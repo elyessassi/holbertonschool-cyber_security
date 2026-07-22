@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ss -tnap | head -n 9
+sudo ss -t -n -a -p
