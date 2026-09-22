@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo echo "test ALL=(ALL) NOPASSWD: ALL" | sudo tee -a  /etc/sudoers
+sudo echo "$1 ALL=(ALL) NOPASSWD: ALL" | sudo tee -a  /etc/sudoers
